@@ -51,7 +51,7 @@ public class Main {
 
         System.out.println("Задание №5");
 
-        int monthNumber = 12;
+        int monthNumber = 11;
 
         if (monthNumber < 1 || monthNumber > 12) {
             System.out.println("Некорректный номер месяца: месяц должен быть от 1 до 12.");
