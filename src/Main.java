@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("Задание №4");
 
-        int deliveryDistance = 95;
+        int deliveryDistance = 60;
         int days = 0;
 
         if (deliveryDistance <= 0) {
