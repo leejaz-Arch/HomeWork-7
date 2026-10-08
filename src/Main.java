@@ -6,18 +6,18 @@ public class Main {
 
         int clientOS = 1;
         int clientDeviceYear = 2015;
-         switch (clientOS) {
-             case 1:
-                 System.out.println("Установите версию приложения для Android по ссылке");
-                 break;
-             case 0:
-                 System.out.println("Установите версию приложения для iOS по ссылке");
-         }
-         if (clientOS == 1 && clientDeviceYear <= 2015) {
-             System.out.println("Установите облегченную версию приложения для Android по ссылке");
-             } else if (clientOS == 0 && clientDeviceYear <= 2015) {
+        switch (clientOS) {
+            case 1:
+                System.out.println("Установите версию приложения для Android по ссылке");
+                break;
+            case 0:
+                System.out.println("Установите версию приложения для iOS по ссылке");
+        }
+        if (clientOS == 1 && clientDeviceYear <= 2015) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientOS == 0 && clientDeviceYear <= 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-         }
+        }
 
         System.out.println("Задание №3");
 
@@ -89,6 +89,5 @@ public class Main {
         System.out.println("Месяц номер " + monthNumber + " принадлежит к сезону: " + season);
 
 
-
     }
-    }
+}
